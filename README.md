@@ -17,7 +17,7 @@ https://github.com/tinachelwanii/ai-section-generator
 
 ## ✨ Features
 
-* Generate website sections from natural-language prompts
+* Generate predefined website sections based on natural-language prompts
 * Mock AI generation using keyword-based layout matching
 * Supports multiple predefined layouts:
 
