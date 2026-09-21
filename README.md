@@ -55,31 +55,43 @@ https://github.com/tinachelwanii/ai-section-generator
 * **Source Code:** GitHub
 
 ---
-
 ## 📁 Project Structure
 
 ```text
 ai-section-generator/
 │
-├── backend/
-│   ├── data/
-│   │   └── layouts.js
-│   ├── routes/
-│   │   └── sectionRoutes.js
-│   ├── server.js
-│   ├── package.json
-│   └── package-lock.json
-│
 ├── frontend/
 │   ├── src/
+│   │   ├── assets/
+│   │   │
 │   │   ├── components/
 │   │   │   ├── DynamicRenderer.jsx
 │   │   │   └── PromptBox.jsx
+│   │   │
 │   │   ├── services/
 │   │   │   └── api.js
-│   │   ├── App.jsx
+│   │   │
 │   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
 │   │   └── main.jsx
+│   │
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── README.md
+│   └── vite.config.js
+│
+├── backend/
+│   ├── data/
+│   │   └── layouts.js
+│   │
+│   ├── routes/
+│   │   └── sectionRoutes.js
+│   │
+│   ├── server.js
 │   ├── package.json
 │   └── package-lock.json
 │
